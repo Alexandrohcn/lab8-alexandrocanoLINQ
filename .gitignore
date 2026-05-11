@@ -4,3 +4,7 @@ obj/
 riderModule.iml
 /_ReSharper.Caches/
 .idea/
+run.err
+run.log
+*.log
+*.err

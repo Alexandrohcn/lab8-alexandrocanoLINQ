@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>lab8_AlexandroCano</RootNamespace>
+        <RollForward>Major</RollForward>
     </PropertyGroup>
 
     <ItemGroup>
@@ -19,10 +20,6 @@
       </PackageReference>
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
       <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Data\" />
     </ItemGroup>
 
 </Project>
