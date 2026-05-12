@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace lab8_AlexandroCano.Controllers.Orders;
 
+// LAB 9 - PASO 3: expone la consulta con Include() + ThenInclude() (Order → Client / OrderDetails → Product).
 [ApiController]
 [Route("api/Orders")]
 public class GetAllOrdersDetailsController(IGetAllOrdersDetailsService getAllOrdersDetailsService) : ControllerBase

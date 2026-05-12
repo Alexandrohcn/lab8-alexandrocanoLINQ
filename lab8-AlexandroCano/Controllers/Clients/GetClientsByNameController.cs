@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace lab8_AlexandroCano.Controllers.Clients;
 
+// LAB 9 - PASO 2: expone la consulta AsNoTracking() + DTO (búsqueda de clientes por nombre).
 [ApiController]
 [Route("api/Clients")]
 public class GetClientsByNameController(IGetClientsByNameService getClientsByNameService) : ControllerBase

@@ -1,16 +1,17 @@
 using lab8_AlexandroCano.Data;
-using lab8_AlexandroCano.Repositories.Clients;
+using lab8_AlexandroCano.Repositories.Clients.Implementacion;
 using lab8_AlexandroCano.Repositories.Clients.Interfaces;
-using lab8_AlexandroCano.Repositories.Orders;
+using lab8_AlexandroCano.Repositories.Orders.Implementacion;
 using lab8_AlexandroCano.Repositories.Orders.Interfaces;
-using lab8_AlexandroCano.Repositories.Products;
+using lab8_AlexandroCano.Repositories.Products.Implementacion;
 using lab8_AlexandroCano.Repositories.Products.Interfaces;
-using lab8_AlexandroCano.Repositories.UnitOfWork;
-using lab8_AlexandroCano.Services.Clients;
+using lab8_AlexandroCano.Repositories.UnitOfWork.Implementacion;
+using lab8_AlexandroCano.Repositories.UnitOfWork.Interfaces;
+using lab8_AlexandroCano.Services.Clients.Implementacion;
 using lab8_AlexandroCano.Services.Clients.Interfaces;
-using lab8_AlexandroCano.Services.Orders;
+using lab8_AlexandroCano.Services.Orders.Implementacion;
 using lab8_AlexandroCano.Services.Orders.Interfaces;
-using lab8_AlexandroCano.Services.Products;
+using lab8_AlexandroCano.Services.Products.Implementacion;
 using lab8_AlexandroCano.Services.Products.Interfaces;
 using Microsoft.EntityFrameworkCore;
 

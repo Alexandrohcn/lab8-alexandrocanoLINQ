@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace lab8_AlexandroCano.Controllers.Clients;
 
+// LAB 9 - PASO 4: expone la doble consulta (clientes + suma de productos comprados por cliente).
 [ApiController]
 [Route("api/Clients")]
 public class GetClientsWithTotalProductsController(IGetClientsWithTotalProductsService getClientsWithTotalProductsService) : ControllerBase

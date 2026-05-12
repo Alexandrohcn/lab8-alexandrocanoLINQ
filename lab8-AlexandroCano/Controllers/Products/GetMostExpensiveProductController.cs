@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace lab8_AlexandroCano.Controllers.Products;
 
+// LAB 9 - MEJORA PROPIA: expone la consulta OrderByDescending + FirstOrDefault (producto más caro).
 [ApiController]
 [Route("api/Products")]
 public class GetMostExpensiveProductController(IGetMostExpensiveProductService getMostExpensiveProductService) : ControllerBase
